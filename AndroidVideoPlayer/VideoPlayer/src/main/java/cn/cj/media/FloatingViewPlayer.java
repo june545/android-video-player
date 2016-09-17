@@ -36,7 +36,7 @@ public class FloatingViewPlayer implements View.OnTouchListener {
 		view = createView();
 		floatingViewManager = new FloatingViewManager(context);
 		FloatingView.Options options = FloatingVideo.create(context);
-		floatingViewManager.addVideoViewToWindow(view, options);
+		floatingViewManager.addScaleVideoViewToWindow(view, options);
 	}
 
 	MediaPlayer player;
